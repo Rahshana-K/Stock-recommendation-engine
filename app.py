@@ -1,17 +1,14 @@
 import streamlit as st
-import requests
-from bs4 import BeautifulSoup
-from transformers import pipeline
-import pandas as pd
-import math
 import yfinance as yf
 import numpy as np
 import pandas as pd
+import math
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
+
 
 
 # Streamlit app title and description
